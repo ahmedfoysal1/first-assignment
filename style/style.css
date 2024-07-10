@@ -440,6 +440,9 @@ font-weight: 800;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);  
+    background-color: rgb(15, 166, 226, 0.2);
+    background-blend-mode: overlay;
+    box-shadow: 5px 5px 5px;
 }
 .react-div1{
     width: 94.78px;
@@ -457,6 +460,19 @@ font-weight: 800;
 
 }
 
+.react-div2 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
 .node{
     width: 1140px;
     height: 219px;
@@ -468,6 +484,9 @@ font-weight: 800;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255); 
+    background-color: rgb(55, 223, 55, 0.2);
+    background-blend-mode: overlay;
+    box-shadow: 5px 5px 5px;
 }
 
 .node-div1{
@@ -484,6 +503,17 @@ font-weight: 800;
     justify-content:flex-start ;
     align-items: flex-start;
 }
+.node-div2 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
 
 .mongo{
     width: 1140px;
@@ -496,6 +526,9 @@ font-weight: 800;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    background-color: rgb(149, 212, 22, 0.2);
+    background-blend-mode: overlay;
+    box-shadow: 5px 5px 5px;
 
 }
 
@@ -512,6 +545,18 @@ font-weight: 800;
     flex-direction: column;
     justify-content:flex-start ;
     align-items: flex-start;
+}
+
+.mongo-div2 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
 }
 
 /* banner-6 stat from here  */ /* banner-6 stat from here  */
@@ -533,17 +578,15 @@ font-weight: 800;
 
 .banner-6-container{
     width: 1044px;
-    height: 186px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    padding-top: 40px;
 }
 
 .banner-6-div-1{
-
     width: 730px;
-    height: 104px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -566,7 +609,6 @@ font-weight: 800;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
-    margin-top: 16px;
 }
 
 .banner-6-btn{
@@ -578,7 +620,7 @@ font-weight: 800;
     justify-content: center;
     align-items: flex-start;
     margin: 0 auto;
-    margin-top: 24px;
+    margin-top: 30px;
 
 
 }
@@ -608,41 +650,57 @@ border-radius: 8px;
 background: rgb(255, 255, 255);
 margin-left: 10px;
 cursor: pointer;
+color: rgb(13, 19, 33);
+font-family: "Azeret Mono", monospace;
+font-size: 20px;
+font-weight: 600;
 }
 
+
+/* input  */
+
+input::placeholder{
+    padding: 20px;
+}
+
+
+/* footer section starts from here  */
+
 .footer-container{
-    width: 1440px;
-height: 100px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-margin: 0 auto;
-margin-left: 560px;
-border-radius: 16px;
-background: rgba(13, 19, 33, 0.03);
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 79px;
+    
 }
 
 .footer-content{
     width: 1140px;
-height: 36px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 135px;
 }
 
 .footer-content h3{
     width: 390px;
-height: 24px;
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .a{
