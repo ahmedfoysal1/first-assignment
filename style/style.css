@@ -30,9 +30,6 @@
     box-shadow: 3px 4px 3px;
 }
 
-button:hover{
-    color: yellowgreen;
-}
 
 
 /* banner-1 style start */ /* banner-1 style start */
@@ -54,6 +51,7 @@ button:hover{
     align-items: center;
     padding-top: 26px;
 }
+
 .banner-1 h1{
     width: 998px;
     display: flex;
@@ -150,6 +148,8 @@ button:hover{
     height: 336px;
     display: flex;
     align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 
 }
 
@@ -189,6 +189,8 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 
 }
 
@@ -230,6 +232,8 @@ button:hover{
     margin-top: 32px;
     width: 946px;
     height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 
 }
 
