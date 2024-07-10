@@ -14,13 +14,24 @@
     margin: 0 auto;
 
 }
+
 .navigation button{
-    width: 180px;
-    height: 30px;
+    width: 228px;
+    height: 58px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    cursor: pointer;
+    box-shadow: 3px 4px 3px;
+}
+
+button:hover{
+    color: yellowgreen;
 }
 
 
@@ -85,6 +96,10 @@
     color: white;
     width: 208px;
     height: 66px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -442,8 +457,12 @@ font-weight: 800;
     background: rgb(255, 255, 255);  
     background-color: rgb(15, 166, 226, 0.2);
     background-blend-mode: overlay;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 8px 10px;
 }
+.react:hover{
+    color: blue;
+}
+
 .react-div1{
     width: 94.78px;
     height: 84.41px;
@@ -486,7 +505,11 @@ font-weight: 800;
     background: rgb(255, 255, 255); 
     background-color: rgb(55, 223, 55, 0.2);
     background-blend-mode: overlay;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 8px 10px;
+}
+
+.node:hover{
+    color: green;
 }
 
 .node-div1{
@@ -528,8 +551,12 @@ font-weight: 800;
     background: rgb(255, 255, 255);
     background-color: rgb(149, 212, 22, 0.2);
     background-blend-mode: overlay;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 10px 10px;
 
+}
+
+.mongo:hover{
+    color: yellowgreen;
 }
 
 .mongo-div1{
@@ -711,3 +738,4 @@ flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 }
+
