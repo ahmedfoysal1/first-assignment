@@ -291,3 +291,92 @@
 }
 
 
+/* banner-4 start from here  */
+
+
+.banner-4{
+    
+    width: 1200px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.banner-4-div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Azeret Mono", monospace;
+}
+
+.banner-4-div1 p{
+    width: 852px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.banner-4-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.html{
+    border-radius: 16px;
+    width: 364px;
+    height: 299px;
+    background-color: rgba(255, 76, 30, 0.05);
+    font-family: "Azeret Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 25px;
+    
+}
+
+.css{
+   border-radius: 16px;
+    width: 364px;
+    height: 299px;
+    background-color: rgba(0, 76, 232, 0.05);
+    font-family: "Azeret Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 25px;
+}
+.js{
+    border-radius: 16px;
+    width: 364px;
+    height: 299px;
+    background-color: rgba(255, 223, 0, 0.05);
+    font-family: "Azeret Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 25px;
+
+}
+a{
+    width: 284px;
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
